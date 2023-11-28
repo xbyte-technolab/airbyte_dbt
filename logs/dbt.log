@@ -1,0 +1,25 @@
+
+
+============================== 2023-11-28 06:57:13.951675 | 0893c798-cb4d-421a-8926-ca816dc247dd ==============================
+06:57:13.951687 [info ] [MainThread]: Running with dbt=1.1.5
+06:57:13.956267 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/xbyte/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'airbytedbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+06:57:13.956661 [debug] [MainThread]: Tracking: tracking
+06:57:13.964451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c968a03d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c968a07f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c968a05b0>]}
+06:57:13.965652 [debug] [MainThread]: Starter project path: /home/xbyte/dbt_airbyte_project/venv/lib/python3.9/site-packages/dbt/include/starter_project
+06:57:23.072043 [info ] [MainThread]: 
+Your new dbt project "airbytedbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+06:57:23.092732 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c968a06d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c968a0580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c968a0c10>]}
